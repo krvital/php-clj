@@ -3,6 +3,7 @@
 ;; http://www.eclipse.org/legal/epl-v10.html
 
 (ns php_clj.core
+  (:refer-clojure :exclude [parse-double parse-boolean])
   (:require [php_clj.reader :as r]
             [clojure.string :as s]
             [ordered.map :refer [ordered-map]]))
